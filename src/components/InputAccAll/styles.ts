@@ -14,8 +14,8 @@ export const DivTr = styled.div`
 export const ThValue = styled.th`
   width: 110px;
   height: 45px;
-  background-color: #000;
-  color: #fff;
+  background-color: ${(props) => props.theme.value};
+  color: ${(props) => props.theme.secundary};
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,7 +26,7 @@ export const ThValue = styled.th`
 export const AllInputAcc = styled.input`
   width: 180px;
   height: 45px;
-  background-color: #2b2b2b;
-  color: #fff;
+  background-color: ${(props) => props.theme.input};
+  color: ${(props) => props.theme.secundary};
   text-align: center;
 `

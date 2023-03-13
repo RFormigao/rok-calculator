@@ -7,6 +7,6 @@ export const Button = styled.button`
   height: 45px;
   border-radius: 7px;
 
-  background-color: #2b2b2b;
-  color: #fff;
+  background-color: ${(props) => props.theme.value};
+  color: ${(props) => props.theme.secundary};
 `
