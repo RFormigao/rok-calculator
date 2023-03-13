@@ -8,5 +8,7 @@ export const Button = styled.button`
   border-radius: 7px;
 
   background-color: ${(props) => props.theme.value};
-  color: ${(props) => props.theme.secundary};
+  color: ${(props) => props.theme.dark};
+  font-weight: 600;
+  font-size: 16px;
 `
